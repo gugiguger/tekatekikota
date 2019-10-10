@@ -112,6 +112,7 @@ export default class ScavengerHunt extends React.Component {
                     <Prompt
                         step={this.state.currStep}
                         instructions={this.prompts[this.state.currStep]}
+                        shouldShowLink={this.state.currStep === 17}
                     />
                     {this.renderSubmitBar()}
                 </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import introImg from "./tekatekikota_home.gif";
+import introImg from "./tekatekikota_home(1).gif";
 
 export default class Intro extends React.Component {
     constructor() {

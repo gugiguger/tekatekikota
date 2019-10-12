@@ -1,7 +1,7 @@
 import React from "react";
-import prefaceImg from "./tekatekikota_intro.gif";
+import outroImg from "./tekatekikota_outro.gif";
 
-export default class Preface extends React.Component {
+export default class Outro extends React.Component {
     constructor() {
         super();
         this.pressEnter = this.pressEnter.bind(this);
@@ -19,11 +19,8 @@ export default class Preface extends React.Component {
 
     render() {
         return (
-            <div className="preface">
-                <img id="imgPreface" src={prefaceImg} alt="logo" />
-                <a href="./game" id="introBtn">
-                    Next >>>
-                </a>
+            <div className="outro">
+                <img src={outroImg} alt="Sabeni" id="imgIntro" />
             </div>
         );
     }

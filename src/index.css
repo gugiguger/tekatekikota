@@ -94,13 +94,8 @@ body {
 }
 
 #imgPreface {
-    width: 5em;
-    position: absolute;
-    top: 21%;
-    right: 50%;
-    -webkit-transform: translate(50%, -50%);
-    -ms-transform: translate(50%, -50%);
-    transform: translate(50%, -50%);
+    width: 100%;
+    height: auto;
 }
 
 #textPreface {
@@ -200,4 +195,17 @@ body {
 
 #notification-wrapper {
     font-family: "Bungee", cursive;
+}
+
+#outroBtn {
+    font-family: "Bungee", cursive;
+    color: white;
+    font-size: 26px;
+    position: absolute;
+    bottom: 8%;
+    right: 50%;
+    -webkit-transform: translate(50%, -50%);
+    -ms-transform: translate(50%, -50%);
+    transform: translate(50%, -50%);
+    text-decoration: none;
 }

@@ -4,6 +4,7 @@ import Intro from "./intro";
 import ScavengerHunt from "./index";
 import Preface from "./preface";
 import Home from "./home";
+import Outro from "./outro";
 
 const Main = () => {
     return (
@@ -13,6 +14,7 @@ const Main = () => {
                 <Route path="/intro" component={Intro} />
                 <Route path="/preface" component={Preface} />
                 <Route path="/game" component={ScavengerHunt} />
+                <Route path="/outro" component={Outro} />
             </div>
         </Router>
     );

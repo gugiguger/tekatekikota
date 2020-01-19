@@ -14,7 +14,7 @@ export default class Prompt extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="promptMain">
                 <div className="promptHeader">
                     <h2>{this.props.step} of 18</h2>
                 </div>

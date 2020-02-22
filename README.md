@@ -8,4 +8,4 @@ A simple react app that walks players through a scavenger hunt I set up in Jakar
 
 To run the app, navigate inside the project directory and run `npm start`
 
-![Tekatekikota gif](./assets/tekatekikota.gif)
+![Tekatekikota gif](./src/assets/tekatekikota.gif)

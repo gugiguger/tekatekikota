@@ -1,8 +1,11 @@
-# ScavengerHuntSite
-A simple react app that walks players through a scavenger hunt I set up on my college campus
+# about
+
+A simple react app that walks players through a scavenger hunt I set up in Jakarta, Indonesia as part of airbnb experience https://www.airbnb.com/experiences/1442308
+
+# features
+
+# instructions
 
 To run the app, navigate inside the project directory and run `npm start`
 
-If you encounter errors, try running the app with nodejs version 8.10.0
-# treasurehunt
-# tekatekikota
+![Tekatekikota gif](./assets/tekatekikota.gif)
